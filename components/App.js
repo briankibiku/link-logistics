@@ -5,6 +5,9 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 
 
 function App() {
+    function promptAlert() {
+        alert('This feature is coming soon, stay tuned!')
+    }
     return (
       <div className="App">
         <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
@@ -17,7 +20,7 @@ function App() {
         <div className='centered-container'>
             <div className='heading1'> <span style={{color: '#FFD700'}}>Link</span> Logistics</div>
             <div className='heading2'>We keep <span style={{color: '#FFD700'}}>Africa moving</span></div>
-            <div className='btn'>Learn more</div>
+            <button className='btn' onClick={promptAlert}>Learn more</button>
         </div>
       </div>
     );

@@ -140,6 +140,7 @@ a {
   background-color: #FFD700;
   color: #fff;
   border-radius: 120px;
+  border: none;
   padding: 20px;
   display: flex;
   text-align: center;
